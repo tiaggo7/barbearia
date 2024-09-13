@@ -5,14 +5,11 @@
     padding: 0%;
 }
 
-body {
-    background-image: url("site\ barbearia/"); 
-}
+body {}
 
 header {
     background-color: rgb(255, 255, 255);
     /*box-shadow: inset 4px -11px 10px 1px  rgb(0, 0, 0);*/
-
 }
 
 picture#logo {
@@ -30,7 +27,7 @@ nav {
     font-size: larger;
 }
 
-a.linkheader{
+a.linkheader {
     color: rgb(255, 0, 0);
     text-decoration: none;
     font-size: larger;
@@ -43,35 +40,10 @@ a.linkheader:hover {
     color: rgb(0, 0, 255);
 }
 
-section#apresentação {
-    background-image: url();
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-
-}
-
-main {
-    background-color: white;
-    display: inline;
-}
-
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 0, 255));
     font-variant: small-caps;
-    padding: 5px ;
+    padding: 5px;
 }
-
-#apresentação img {
-    width: 450px;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-@media (min-width: 670px) {
-    #apresentação img{
-        width: 650px ;
-    }   
-} 
