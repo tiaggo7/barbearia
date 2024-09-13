@@ -44,7 +44,7 @@ a.linkheader:hover {
 }
 
 section#apresentação {
-
+    background-image: url();
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
