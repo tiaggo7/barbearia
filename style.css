@@ -8,16 +8,17 @@
 }
 
 .cabeçalho {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
     box-shadow: 2px 6px 17px 0px;
 }
 
 .cabeçalho-logo {
-    width: 160px;
+    width: 150px;
     height: 110px;
 }
 
@@ -27,7 +28,7 @@
 }
 
 .cabeçalho-ancora {
-    color: rgb(0, 0, 255);
+    color: rgb(88, 78, 78);
     font-weight: lighter;
     font-size: 1.2rem;
 }
@@ -37,4 +38,27 @@
     font-size: 1.8rem;
     transition: 0.3s;
     text-decoration: underline;
+}
+
+body {
+    background-image: url(imagens/fundo-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.corpo-principal {
+    background-color: rgba(77, 77, 85, 0.952);
+    display: flex;
+    
+}
+
+.corpo-principal h1 {
+    text-align: center;
+    
+
+}
+.corpo-principal p {
+    text-align: end;
+    columns: 2;
 }
