@@ -8,13 +8,13 @@
 }
 
 .cabeçalho {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    box-shadow: 2px 6px 17px 0px;
+   
 }
 
 .cabeçalho-logo {
@@ -41,10 +41,71 @@
 }
 
 body {
-    background-image: url(imagens/fundo-background.jpg);
+   background-image: url(imagens/logo02.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    font-size: 1.1em;
+
+}
+
+main {
+    text-align: center;
+    color: white;
+}
+h1 {
+    margin: 20px 0px 20px 0px;
 }
 
 
+.container01 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    
+
+}
+
+.box02 {
+    width: 350px;
+
+}
+
+.container02 {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+@media (max-width: 708px) {
+    .container02 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 708px) {
+    .imagens {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+.imagens {
+    width: 200px;
+    height: 200px;
+
+}
+
+.box01 {
+    width: 200px;
+    padding: 15px;
+}
+
+.subtitulos {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
